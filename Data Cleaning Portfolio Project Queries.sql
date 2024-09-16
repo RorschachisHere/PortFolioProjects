@@ -3,10 +3,6 @@
 SELECT *
 FROM layoffs_dataset;
 
--- 1. Remove Duplicates
--- 2. Standardize the Data
--- 3. Remove Null or Empty Values
--- 4. Remove Columns if Necessary
 
 CREATE TABLE layoffs_dataset_staging
 LIKE layoffs_dataset
